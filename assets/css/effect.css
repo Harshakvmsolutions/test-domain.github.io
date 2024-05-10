@@ -91,7 +91,7 @@
     border-radius: 0 10px 0 10px;
     box-shadow: 0 0 5px #fff;
 }
-.box-head .text-ba{margin-top:-40px;color: #f97f14;font-size: 18px;font-weight: 600;}
+.box-head .text-ba{margin-top:-40px;color: #ffffff;font-size: 18px;font-weight: 600;text-shadow: 0 0 5px #0c709b;}
 .box-head .text-ba:hover{display:none;}
 @media only screen and (max-width:990px){
     .box{ margin: 0 0 30px; }
