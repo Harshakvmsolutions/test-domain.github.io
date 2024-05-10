@@ -78,3 +78,6 @@ textarea{background-color: #fff !important;}
 .box-item img{width: 50px !important;height: 50px;}
 .customPrevBtn,.customNextBtn{cursor: pointer;text-align: center;}
 .owl-nav{display: flex;gap:20px;justify-content: center;}
+@media (max-width:787px) {
+    .py-sm-1{padding: 1rem;}
+}
