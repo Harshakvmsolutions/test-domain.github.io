@@ -1,4 +1,4 @@
-// header-typewriter
+// header-typewriter---------------------------------------------
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -51,8 +51,7 @@ var TxtType = function(el, toRotate, period) {
     }
   };
 
-  //Number counter
-
+  //Number counter-------------------------------------------------------
   const counts = document.querySelectorAll(".count");
         const speed = 397;
         counts.forEach((count) => {
@@ -70,9 +69,7 @@ var TxtType = function(el, toRotate, period) {
           upDate();
         });
 
-        // carousel
-
-
+// owl carousel---------------------------------------------------------
         var owl = $('.owl-carousel');
 owl.owlCarousel({
   loop: true,
@@ -105,4 +102,23 @@ $('.customPrevBtn').click(function() {
     // With optional speed parameter
     // Parameters has to be in square bracket '[]'
     owl.trigger('prev.owl.carousel', [300]);
-})
+});
+//-------------------------------------------------------------------------
+// scroll-top
+$(document).ready(function(){
+	$(window).scroll(function () {
+			if ($(this).scrollTop() > 50) {
+				$('#back-to-top').fadeIn();
+			} else {
+				$('#back-to-top').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#back-to-top').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 400);
+			return false;
+		});
+});
+
