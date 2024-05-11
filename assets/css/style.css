@@ -15,11 +15,12 @@ a{text-decoration: none;}
 .nav-link{color: #FF7827;}
 .nav-link:hover{color: #0c709b;border-bottom: 2px solid #0c709b;}
 .navbar-toggler {border: none;}
+.bg-body-tertiary {--bs-bg-opacity: 1;background-color: rgb(255 255 255) !important;}
 /* nav part ends */
 /* hero */
-.hero-image{background: url(../../images/hero.jpeg);background-position: bottom center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 500px;}
+.hero-image{background: url(../../images/hero.jpeg);background-position: bottom center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 400px;}
 .typewrite{font-size: 2.5rem;font-weight: 600;text-decoration: none;color: #ffffff; margin-left:8px;margin-top:-5px;}
-.head-text{transform: translate(0, 16rem);}
+.head-text{transform: translate(0, 7rem);}
 .head-text h1{color:#fff;}
 /* hero ends */
 /* why-us starts */
@@ -31,7 +32,7 @@ a{text-decoration: none;}
 .box-properties:hover .img-card img{transform: scale(1.1);}
 .card{overflow: hidden;transition: 0.4s ease-in-out;height: 435px;}
 .price{padding: 0px 0px 10px 0px;}
-.btn-book{box-sizing: border-box;padding: 10px 20px;background-color: #FF7827;color: #fff;}
+.btn-book{box-sizing: border-box;padding: 10px 20px;background-color: #FF7827 !important;color: #fff;}
 .btn-book:hover{box-sizing: border-box;padding: 10px 20px;background-color: #0c709b;color: #fff;}
 .card-title{color: #0c709b;}
 .card-text i{color: #FF7827;}
@@ -51,7 +52,7 @@ a{text-decoration: none;}
 .btn-foot{box-sizing: border-box;padding: 5px 10px;background-color: #FF7827;color: #fff;border-radius: 5px;}
 .btn-foot:hover{box-sizing: border-box;padding: 5px 10px;background-color: #0c709b;color: #fff;border-radius: 5px;}
 .w-10{width: 40px;}
-.social img{width: 40px;height: 40px;margin-top: 5px;margin-bottom: 5px;}
+.social img{width: 40px;height: 40px;margin-top: 5px;margin-bottom: 5px;border-radius: 5px;}
 .social img:hover{box-shadow: 0 0 5px #fff;border-radius: 5px;}
 .form-control{border:1px solid #0c709b;background-color: #ffe1ce2e;backdrop-filter: blur(21px);}
 input{margin-top: 5px;margin-bottom: 5px;background-color: #fff !important;}
@@ -81,3 +82,5 @@ textarea{background-color: #fff !important;}
 @media (max-width:787px) {
     .py-sm-1{padding: 1rem;}
 }
+/* scroll to top */
+.back-to-top {position: fixed;bottom: 10px;right: 0px;padding: 0px;background-color: #ff7a00;border-radius: 50px;width: 30px;height: 30px;color: white;z-index: 1;}
