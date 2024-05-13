@@ -93,7 +93,7 @@ textarea{background-color: #fff !important;}
 /* ---------------dlf------------ */
 .hero-image-dlf{background: url(../../images/bg-imgs/dlf-bg.jpg);background-position: bottom center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 400px;}
 .text-shadow{text-shadow: 0 0 5px #000;}
-.dark-section{background-color: #000;}
+.dark-section{background-color: #ff7827;}
 .about-product p{color: #575757;}
 .w-form{width: 50%;transform: translate(50%, 0px);}
 .Amenities{vertical-align: middle;}
