@@ -112,7 +112,7 @@ textarea{background-color: #fff !important;}
 .floorplan{box-sizing: border-box;border: 2px solid #FF7827;width: max-content;padding: 30px;transform: translate(25%, 0px);}
 .room{font-size: 24px;}
 .floor-area{font-size: 24px;}
-.floor img{width: 100%;}
+.floor img{width: 100%;height: -webkit-fill-available;}
 .row{margin-left: 0px;margin-right: 0;}
 .gallery img{width: 170px;height: 122px;}
 .h-45{height: 45px;}
