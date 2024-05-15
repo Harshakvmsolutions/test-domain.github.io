@@ -131,6 +131,6 @@ textarea{background-color: #fff !important;}
 .hero-image-godrej-tropical{background: url(../../images/bg-imgs/Godrej-tropical-bg.jpg);background-position: bottom center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 400px;}
 /* ---------M3M----------- */
 .hero-image-m3m{background: url(../../images/bg-imgs/m3m-bg.jpg);background-position: bottom center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 400px;}
-
-
+.floor-text{flex-direction: column !important;align-items: center !important;}
+.gallery{margin-left: -7px;}
 
