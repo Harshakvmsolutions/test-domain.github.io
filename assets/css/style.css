@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5{font-family: "Merienda", cursive;}
 a{text-decoration: none;}
 .sec-padd{padding:40px 0px;overflow: hidden;}
 .logo{width: 157px !important;height: 60px !important;}
-.nav-num{box-sizing: border-box;position: relative;padding: 5px 10px;background-color: #FF7827;color: #fff;border-radius: 10px;}
+.nav-num{box-sizing: border-box;position: relative;padding: 5px 10px;background-color: #FF7827;color: #000000;border-radius: 10px;}
 .nav-num:hover{box-sizing: border-box;position: relative;padding: 5px 10px;background-color: #0c709b;color: #fff;border-radius: 10px;}
 .nav-link{color: #FF7827;}
 .nav-link:hover{color: #0c709b;border-bottom: 2px solid #0c709b;}
@@ -32,7 +32,7 @@ a{text-decoration: none;}
 .box-properties:hover .img-card img{transform: scale(1.1);}
 .card{overflow: hidden;transition: 0.4s ease-in-out;height: 435px;}
 .price{padding: 0px 0px 10px 0px;}
-.btn-book{box-sizing: border-box;padding: 10px 20px;background-color: #FF7827 !important;color: #fff;}
+.btn-book{box-sizing: border-box;padding: 10px 20px;background-color: #FF7827 !important;color: #000000;}
 .btn-book:hover{box-sizing: border-box;padding: 10px 20px;background-color: #0c709b !important;color: #fff;}
 .card-title{color: #0c709b;}
 .card-text i{color: #FF7827;}
@@ -48,7 +48,7 @@ a{text-decoration: none;}
 .foot-box a{color: #fff;font-size: 14px;}
 .foot-box a:hover{color: #d9d9d9;font-size: 14px;border-bottom: 1px solid #d9d9d9;}
 .foot-box li{list-style: none;margin-left:-30px;}
-.btn-foot{box-sizing: border-box;padding: 5px 10px;background-color: #FF7827;color: #fff;border-radius: 5px;}
+.btn-foot{box-sizing: border-box;padding: 5px 10px;background-color: #FF7827;color: #000000;border-radius: 5px;}
 .btn-foot:hover{box-sizing: border-box;padding: 5px 10px;background-color: #0c709b;color: #fff;border-radius: 5px;}
 .w-10{width: 40px;}
 .social img{width: 40px;height: 40px;margin-top: 5px;margin-bottom: 5px;border-radius: 5px;}
