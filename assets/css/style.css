@@ -15,6 +15,7 @@ a{text-decoration: none;}
 .nav-link{color: #FF7827;}
 .nav-link:hover{color: #0c709b;border-bottom: 2px solid #0c709b;}
 .navbar-toggler {border: none;}
+.navbar-nav{gap:25px;}
 .bg-body-tertiary {--bs-bg-opacity: 1;background-color: rgb(255 255 255) !important;}
 .gap-7{gap: 15rem;}
 @media (max-width:768px) {
