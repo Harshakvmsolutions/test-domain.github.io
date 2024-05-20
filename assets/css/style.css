@@ -120,7 +120,7 @@ textarea{background-color: #fff !important;}
 @media (max-width:568px) {
 .floor-text{flex-direction: column !important;align-items: center !important;}
 }
-.gallery{margin-left: -7px;}
+.gallery{margin-left: -7px;margin-top:3rem;}
 .contact-us-bg{background: url(../../images/bg-imgs/contact-us-bg.jpg);background-position: bottom center;background-repeat: no-repeat;background-size: cover;width: 100%;height:300px;}
 .contact-outer-box{box-sizing: border-box;background-color: #0c709b27;padding: 30px; margin-bottom: 20px;}
 .contact-outer-box h3{color: #0c709b;}
