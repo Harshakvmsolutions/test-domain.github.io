@@ -22,6 +22,9 @@ a{text-decoration: none;}
 @media (max-width:768px) {
     .gap-7{gap: 0px;}
 }
+.properties-form{width: 300px;float:right;}
+.head-text-properties{transform: translate(0, 5rem);}
+.head-text-properties h1{color:#fff;font-size: 26px;}
 .hero-image{background: url(../../images/hero.jpeg);background-position: bottom center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 400px;}
 .typewrite{font-size: 2.5rem;font-weight: 600;text-decoration: none;color: #ffffff; margin-left:8px;margin-top:-5px;}
 .head-text{transform: translate(0, 7rem);}
@@ -125,6 +128,7 @@ textarea{background-color: #fff !important;}
 .hero-image-elan{background: url(../../images/bg-imgs/elan-bg.jpg);background-position: bottom center;background-repeat: no-repeat;background-size: cover;width: 100%;height: 400px;}
 @media (max-width:568px) {
 .floor-text{flex-direction: column !important;align-items: center !important;}
+.properties-form{width: 300px;float:right;text-align: center;}
 }
 .gallery{margin-left: -7px;}
 .contact-us-bg{background: url(../../images/bg-imgs/contact-us-bg.jpg);background-position: bottom center;background-repeat: no-repeat;background-size: cover;width: 100%;height:300px;}
@@ -169,5 +173,5 @@ input{border-bottom:2px solid #0c709b !important;}
 .blog-text p{font-size: 14px;text-align: justify;}
 .service-bx{box-sizing: border-box;padding: 20px;box-shadow: 0 0 3px #c1c1c1;border-radius: 10px;}
 .service-bx .head{font-size: 16px;font-weight: 600;margin-bottom: 10px;margin-top: 15px;}
-.service-bx p{font-size: 12px;font-weight: 400;}
-.service-bx ol li{font-size: 12px;font-weight: 400;}
+.service-bx p{font-size: 14px;font-weight: 400;}
+.service-bx ol li{font-size: 14px;font-weight: 400;}
