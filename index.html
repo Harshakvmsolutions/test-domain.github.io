@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid gap-7">
             <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo-akvmrealty" class="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <button class="navbar-toggler" type="button" id="call" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -78,7 +78,7 @@
                                           </select>
                                     </div>
                                     <div class="col-12 col-md-4 col-sm-12 py-1">
-                                        <button class="form-control btn btn-nav" type="submit">Submit</button>
+                                        <button class="form-control btn btn-nav"  id="submit" type="submit">Submit</button>
                                     </div>
                                 </div>
                             </form>
@@ -538,6 +538,7 @@
                                 <img src="images/blog-bnr2.jpg" class="card-img-top" alt="blog image 2">
                             </div>
                             <div class="card-body">
+                                <h5 class="card-title"></h5>
                                 <h5 class="card-title">Exploring the luxury properties in Faridabad</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ducimus
                                     exercitationem quasi ullam repellendus voluptate necessitatibus quod amet explicabo
@@ -644,10 +645,10 @@
                             <h3>Projects</h3>
                         </header>
                         <ul>
-                            <li><a href="#">Luxury</a></li>
-                            <li><a href="#">Commercial</a></li>
-                            <li><a href="#">Resedential</a></li>
-                            <li><a href="#">New Launches</a></li>
+                            <li><a href="properties.html">Luxury</a></li>
+                            <li><a href="properties.html">Commercial</a></li>
+                            <li><a href="properties.html">Resedential</a></li>
+                            <li><a href="properties.html">New Launches</a></li>
                         </ul>
                     </div>
                     <div class="col-6 col-md-2 col-sm-6">
@@ -670,7 +671,7 @@
                             <li><a href="contact-us.html">Contact Us</a></li>
                             <li><a href="terms-condition.html">Terms &amp; Conditions</a></li>
                             <li><a href="#">Sitemap</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="privacypolicy.html">Privacy Policy</a></li>
                         </ul>
                     </div>
                     <div class="col-6 col-md-2 col-sm-6">
@@ -700,7 +701,7 @@
                             <input type="text" class="form-control" placeholder="Full Name">
                             <input type="phone" class="form-control" placeholder="Phone">
                             <textarea type="text" class="form-control" placeholder="Message" rows="2"></textarea>
-                            <button class="btn-foot border-none mt-2"><a href="#">SEND</a></button>
+                            <button class="btn-foot border-none mt-2" id="send"><a href="#">SEND</a></button>
                         </form>
                     </div>
                 </div>
